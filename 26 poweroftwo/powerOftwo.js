@@ -1,3 +1,3 @@
 var isPowerOfTwo = function(n) {
-    return  Number.isInteger(Math.sqrt(n))
+    return Number.isInteger(Math.sqrt(n))
   };
