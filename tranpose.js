@@ -2,10 +2,10 @@ var transpose = function (matrix) {
   let newArray = [];
   let i = 0;
   let j = 0;
+  console.log(matrix[0].length);
   while (i < matrix.length) {
     let smallArray = [];
-    console.log(matrix[i]);
-
+    console.log(i);
     while (j < matrix[i].length) {
       smallArray.push(matrix[i][j]);
       i++;
